@@ -8,7 +8,4 @@ N/A
 N/A
 
 # Requirements & Dependencies
-N/A
-
-# Previews
-![preview image](https://via.placeholder.com/350x240)
+- C99 (ANSI C)
