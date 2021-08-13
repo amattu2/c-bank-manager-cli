@@ -19,7 +19,7 @@ int main(int argc, char const *argv[]) {
 	/* Primary Menu */
 	int menu = menus_main();
 
-	printf("Menu selected %d\n", menu);
+	printf("Menu selected: %d\n", menu);
 
 	return 0;
 }
@@ -34,7 +34,7 @@ int menus_main() {
 		printf("  1) Customer\n");
 		printf("  2) Transaction\n");
 		printf("  3) Options\n");
-		scanf("%d\n", &menu);
+		scanf("%d", &menu);
 	}
 
 	/* Return result */
